@@ -1,0 +1,162 @@
+/* universal selector */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Noto Sans JP", sans-serif;
+}
+
+/* main  */
+#bannerSection {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.6) 100%), url(./assets/hero-bg.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+/* banner */
+/* main  */
+#bannerSection > div {
+    position: absolute;
+    top: 40vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.bannerTxt{
+    font-size: 22px;
+    opacity: 75%;
+}
+
+.bannerTitle{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.greenBtn{
+    background-color:#52C303;
+    margin-top: 50px;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+#cardSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0;
+    gap: 20px;
+    text-align: center;
+}
+
+.commonTitle{
+    color: rgb(93, 93, 93);
+    font-weight: 600;
+}
+
+.commonHeading{
+    font-weight: 900;
+    font-size: 40px;  
+}
+
+/* card */
+#cardMainDiv{
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card img{
+    width: 380px;
+}
+
+.cardBtn{
+    background-color:#53c30337;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cardPara{
+    color:rgb(93, 93, 93) ;
+    font-size: 16px;
+}
+
+
+/* about section  */
+#aboutSection > div {
+    display: flex;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.aboutImg{
+    width: 50%;
+}
+
+.aboutTextDiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#followTxt{
+    border-bottom: 2px solid rgb(231, 231, 231);
+    border-top: 2px solid rgb(231, 231, 231);
+    width: 100%;
+    padding: 20px 0;
+}
+
+.socialIcon{
+    display: flex;
+    gap: 20px;
+}
+
+
+/* footer  */
+footer{
+    background-image: url(./assets/social-bg.png);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr{
+    border-top: 5px solid #52C303;
+}
+
+#footerSection{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: rgba(240, 248, 255, 0.789);
+}
+
+#followTxt2{
+    border-bottom: 2px solid rgb(145, 145, 145);
+    border-top: 2px solid rgb(145, 145, 145);
+    width: 100%;
+    padding: 20px 0;
+}
+
